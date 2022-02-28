@@ -108,7 +108,7 @@ int isAccepted(char *in_str) {
         else if (state == 6) {
             q6(in_str[i]);
         }
-        else if (state == 8) {
+        else if (state == 7) {
             state =UNDEF;
         }
     }
