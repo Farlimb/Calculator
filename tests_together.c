@@ -26,7 +26,7 @@ TEST verify_d() {
 }
 
 TEST verify_e() {
-    ASSERT_EQ(isAccepted("aabc"),0);
+    ASSERT_EQ(isAccepted("aac"),1);
     PASS();
 }
 
